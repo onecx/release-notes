@@ -22,33 +22,34 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Potential issues with missing Angulars platform browser library in all **OneCX Core Products**
     * Navigation issue with backward navigation between Applications
     * Buttons within Dialogs opened using DialogService are right aligned (OneCX standard)
-* Use OneCX lib version 5.22.0
-* Data Orchestartor 1.1.0
-* IAM 1.1.0
-* Shell 1.1.0
-* Tenant 1.1.0
-* Theme 1.1.0
-* Announcement 1.1.0
+* Use OneCX lib version 5.22.0 
+* Product store [1.1.0](releases/20241030/onecx-product-store.md)
+* Data Orchestartor [1.1.0](releases/20241030/onecx-data-orchestrator.md)
+* IAM [1.1.0](releases/20241030/onecx-iam.md)
+* Shell [1.1.0](releases/20241030/onecx-shell.md)
+* Tenant [1.1.0](releases/20241030/onecx-tenant.md)
+* Theme [1.1.0](releases/20241030/onecx-theme.md)
+* Announcement [1.1.0](releases/20241030/onecx-announcement.md)
     * Increase maximum length of content up to 1000 characters
     * Improve layout of search dialog and banner
     * Improve layout of detail dialog: display remaining characters on text fields, display icon and background color
     * If the announcement text contains line breaks then they are taken into account on displaying
-* Help 1.1.0
+* Help [1.1.0](releases/20241030/onecx-help.md)
     * Improve layout of search and detail dialog
     * Within the search results the complete (used) URL is displayed instead the single parts
     * Align layout of help item editor dialog
-* Permissions 1.2.0
+* Permissions [1.2.0](releases/20241030/onecx-permission.md)
     * Optimize responsive layout for smaller devices
     * Initial sort order on search result uses display name
     * Improve layout of export dialog
-* User Profile 1.2.0
+* User Profile [1.2.0](releases/20241030/onecx-user-profile.md)
     * An authorized user (new permissions) can see the roles and permissions of other users
     * An authorized user (new permissions) can delete the user profile of other users
     * Fixing breadcrumbs and translations
-* Welcome 1.1.0
+* Welcome [1.1.0](releases/20241030/onecx-welcome.md)
     * Improve size and layout of announcement area and detail view
     * If no active announcements exist then no announcement area is displayed
-* Workspace 1.1.0
+* Workspace [1.1.0](releases/20241030/onecx-workspace.md)
     * Improve menu role loading and filtering
     * Fix basePath issues with starting another existing basePath
 
