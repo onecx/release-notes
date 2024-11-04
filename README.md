@@ -2,7 +2,7 @@
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
 ## Release 2024-11-05
-* Use OneCX lib version 5.2.2
+* Use OneCX lib version 5.22.2
 * Shell 1.2.0
     * Fix: The authentication token is shared as long as it is valid.
 * Product Store 1.2.0
