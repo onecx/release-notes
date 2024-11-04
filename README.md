@@ -1,8 +1,24 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
-## Release 2024-10-30
 
-* Fixes
+## Release 2024-11-05
+* Use OneCX lib version 5.2.2
+* Shell 1.2.0
+    * Fix: The authentication token is shared as long as it is valid.
+* Product Store 1.2.0
+    * Display workspaces which using a product within a new TAB on detail dialog
+    * Display version info in all search results
+* Theme 1.2.0
+    * Fix: If the display name does not exist on import then the theme name is used instead
+* User Profile 1.3.0
+    * New backend permissions for admin used endpoints
+    * An authorized user can manage the avatar of other users
+* Workspace 1.2.0
+    * Fix: If the referenced Theme does not exist then the OneCX default theme settings are used
+
+
+## Release 2024-10-30
+* General Fixes
     * Potential issues with missing Angulars platform browser library in all **OneCX Core Products**
     * Navigation issue with backward navigation between Applications
     * Buttons within Dialogs opened using DialogService are right aligned (OneCX standard)
