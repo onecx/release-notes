@@ -7,7 +7,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: The authentication token is shared as long as it is valid.
 * Product Store 1.2.0
     * Display workspaces which using a product within a new TAB on detail dialog
-    * Display version info in all search results
+    * Display version info in all search results and added version as filter
 * Theme 1.2.0
     * Fix: If the display name does not exist on import then the theme name is used instead
 * User Profile 1.3.0
