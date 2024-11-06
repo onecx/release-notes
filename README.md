@@ -5,14 +5,17 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * Use OneCX lib version 5.xx.y
 * Announcement 1.2.0
     * Fix: View announcement details with read only permissions
+* Product Store 1.3.0
+    * Allow image size up to 200kb
 * Workspace 1.3.0
     * Fix: View menu details with read only permissions
     * Fix: Display loading and exception status on following tabs: roles, slots, products
+    * Fix: new backend permissions for product related data
 
 
 ## Release 2024-11-05
 * Use OneCX lib version 5.22.2
-* Shell 1.2.0
+* Shell 1.2.0 [1.2.0](releases/20241105/onecx-shell.md)
     * Fix: The authentication token is shared as long as it is valid.
 * Product Store [1.2.0](releases/20241105/onecx-product-store.md)
     * Display workspaces which using a product within a new TAB on detail dialog
