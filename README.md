@@ -1,9 +1,17 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
+## Release 2024-11-xx
+* Use OneCX lib version 5.yy.z
+* Permission
+    * Allow to delete applications
+
+
 ## Release 2024-11-12
 * Use OneCX lib version 5.23.2
     * Fix: Use local font instaed remote
+* Shell 1.2.0
+    * Fix: View announcement details with read only permissions
 * Announcement 1.2.0
     * Fix: View announcement details with read only permissions
 * Product Store 1.3.0
@@ -16,6 +24,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: View menu details with read only permissions
     * Fix: Display loading and exception status on following tabs: roles, slots, products
     * Fix: new backend permissions for product related data [link](https://github.com/onecx/onecx-workspace-bff/commit/dd9b24599b5cf9a16258e952cafaa6634585a372#diff-fae1be0e38e5db5b0a5c9205f249f194e968340bd8918bab56ebfcf5ef3746e1)
+
 
 
 ## Release 2024-11-05
