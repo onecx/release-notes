@@ -1,12 +1,17 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
-## Release 2024-11-xx
-* Use OneCX lib version 5.xx.y
+## Release 2024-11-12
+* Use OneCX lib version 5.23.2
+    * Fix: Use local font instaed remote
 * Announcement 1.2.0
     * Fix: View announcement details with read only permissions
 * Product Store 1.3.0
     * Allow image size up to 200kb
+* Theme 1.3.0
+    * Improve import with suitable warning messages 
+* User Profile 1.4.0
+    * Fix: Use HTTP Status code 204 if avatar image does not exist
 * Workspace 1.3.0
     * Fix: View menu details with read only permissions
     * Fix: Display loading and exception status on following tabs: roles, slots, products
