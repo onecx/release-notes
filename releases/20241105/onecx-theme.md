@@ -1,6 +1,6 @@
 
 # onecx-theme 1.1.0 -> 1.2.0
-## onecx-theme-bff 1.1.0 -> 1.1.0
+
 ## onecx-theme-svc 1.1.0 -> 1.2.0
 * [1b41e09](https://github.com/onecx/onecx-theme-svc/commit/1b41e09b2e322378877e7314fd347d3c4018afd4) - feat: added name as fallback ([#101](https://github.com/onecx/onecx-theme-svc/pull/101))
 ## onecx-theme-ui 1.1.0 -> 1.2.0
