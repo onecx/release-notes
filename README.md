@@ -15,7 +15,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * Workspace 1.3.0
     * Fix: View menu details with read only permissions
     * Fix: Display loading and exception status on following tabs: roles, slots, products
-    * Fix: new backend permissions for product related data
+    * Fix: new backend permissions for product related data [link](https://github.com/onecx/onecx-workspace-bff/commit/dd9b24599b5cf9a16258e952cafaa6634585a372#diff-fae1be0e38e5db5b0a5c9205f249f194e968340bd8918bab56ebfcf5ef3746e1)
 
 
 ## Release 2024-11-05
