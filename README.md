@@ -10,10 +10,10 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 
 
 ## Release 2024-11-12
-* Use OneCX lib version 5.23.2
+* Use OneCX lib version 5.23.4
     * Fix: Use local font instaed remote
 * Shell [1.2.0](releases/20241112/onecx-shell.md)
-    * Fix: 
+    * Filter view component with chips and overlay
 * Announcement [1.2.0](releases/20241112/onecx-announcement.md)
     * Fix: View announcement details with read only permissions
 * Product Store [1.3.0](releases/20241112/onecx-product-store.md)
