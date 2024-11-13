@@ -4,25 +4,25 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 ## Release 2024-11-xx
 * Use OneCX lib version 5.yy.z
 * Permission
-    * Display messages on import conflicts
+    * Display messages on import conflicts (planned)
     * Allow the deletion of an application (planned)
     * Role filter in detail (planned)
+* User Profile [1.4.0](releases/20241112/onecx-user-profile.md)
+    * Fix: Use HTTP Status code 204 if avatar image does not exist (to bo fixed)
 
 
 ## Release 2024-11-13
 * Use OneCX lib version 5.23.6
     * Fix: Use local font instaed remote
-* Shell [1.2.0](releases/20241112/onecx-shell.md)
+* Shell [1.3.0](releases/20241113/onecx-shell.md)
     * Filter view component with chips and overlay
-* Announcement [1.2.0](releases/20241112/onecx-announcement.md)
+* Announcement [1.2.0](releases/20241113/onecx-announcement.md)
     * Fix: View announcement details with read only permissions
-* Product Store [1.3.0](releases/20241112/onecx-product-store.md)
+* Product Store [1.3.0](releases/20241113/onecx-product-store.md)
     * Allow image size up to 200kb
-* Theme [1.3.0](releases/20241112/onecx-theme.md)
+* Theme [1.3.0](releases/20241113/onecx-theme.md)
     * Improve import with suitable warning messages 
-* User Profile [1.4.0](releases/20241112/onecx-user-profile.md)
-    * Fix: Use HTTP Status code 204 if avatar image does not exist
-* Workspace [1.3.0](releases/20241112/onecx-workspace.md)
+* Workspace [1.3.0](releases/20241113/onecx-workspace.md)
     * Fix: View menu details with read only permissions
     * Fix: Display loading and exception status on following tabs: roles, slots, products
     * Fix: new backend permissions for product related data [link](https://github.com/onecx/onecx-workspace-bff/commit/dd9b24599b5cf9a16258e952cafaa6634585a372#diff-fae1be0e38e5db5b0a5c9205f249f194e968340bd8918bab56ebfcf5ef3746e1)
