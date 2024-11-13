@@ -9,8 +9,8 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Role filter in detail (planned)
 
 
-## Release 2024-11-12
-* Use OneCX lib version 5.23.4
+## Release 2024-11-13
+* Use OneCX lib version 5.23.6
     * Fix: Use local font instaed remote
 * Shell [1.2.0](releases/20241112/onecx-shell.md)
     * Filter view component with chips and overlay
