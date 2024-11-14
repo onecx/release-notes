@@ -8,7 +8,17 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Allow the deletion of an application (planned)
     * Role filter in detail (planned)
 * User Profile [1.4.0](releases/20241112/onecx-user-profile.md)
-    * Fix: Use HTTP Status code 204 if avatar image does not exist (to bo fixed)
+    * Fix: Use HTTP Status code 204 if avatar image does not exist (to be fixed in lib)
+
+
+## Release 2024-11-14
+* Use OneCX lib version 5.25.0
+* Shell [1.4.0](releases/20241114/onecx-shell.md)
+    * In ocx-data-table the select-all checkbox is checked if all options are checked
+    * In ocx-data-table the column order is updated after reorder in column group dialog
+    * In ocx-data-table and ocx-data-list only the things are rendered which are in viewport
+    * In ocx-data-table the column headers are align to top and the sort/filter are on next row
+    * There is a environment variable to control the order of search criteria actions
 
 
 ## Release 2024-11-13
