@@ -15,6 +15,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: Rate HTTP Status code 204 as error on getting images
 * User Profile [1.4.0](releases/20241115/onecx-user-profile.md)
     * Fix: Use HTTP Status code 204 if avatar image does not exist
+    * Use default settings (lang, menu position) for new user-profiles via environment variables
 
 
 ## Release 2024-11-14
