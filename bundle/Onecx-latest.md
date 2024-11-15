@@ -20,6 +20,7 @@
 
 * [#1](https://github.com/onecx/onecx-data-orchestrator-ui/pull/1) - feat: init impl `config` 
 * [#7](https://github.com/onecx/onecx-data-orchestrator-ui/pull/7) - feat: update package-lock 
+* [#9](https://github.com/onecx/onecx-data-orchestrator-ui/pull/9) - Feature/details and improvements 
 
 ## onecx-help 1.1.0...main
 
@@ -112,9 +113,9 @@
 
 ### onecx-shell-ui [1.3.0...main](https://github.com/onecx/onecx-shell-ui/compare/1.3.0...main)
 
-* [#407](https://github.com/onecx/onecx-shell-ui/pull/407) - fix: update onecx version 
-* [#409](https://github.com/onecx/onecx-shell-ui/pull/409) - feat: added environment variable to reorder search criteria actions 
-* [#413](https://github.com/onecx/onecx-shell-ui/pull/413) - fix: update onecx lib to fix loading avatar placeholder when 204 
+* [#407](https://github.com/onecx/onecx-shell-ui/pull/407) - fix: update onecx version `dependencies` 
+* [#409](https://github.com/onecx/onecx-shell-ui/pull/409) - feat: added environment variable to reorder search criteria actions `feature` `config` 
+* [#413](https://github.com/onecx/onecx-shell-ui/pull/413) - fix: update onecx lib to fix loading avatar placeholder when 204 `fix` 
 
 ## onecx-tenant 1.1.0...main
 
@@ -147,6 +148,7 @@
 ### onecx-user-profile-svc [1.1.0...main](https://github.com/onecx/onecx-user-profile-svc/compare/1.1.0...main)
 
 * [#72](https://github.com/onecx/onecx-user-profile-svc/pull/72) - Build(deps): bump onecx/docker-quarkus-jvm from 0.12.0 to 0.13.0 in /src/main/docker `docker-image` 
+* [#73](https://github.com/onecx/onecx-user-profile-svc/pull/73) - feat: add user profile settings menu mode configuration 
 
 ### onecx-user-profile-ui [1.2.0...main](https://github.com/onecx/onecx-user-profile-ui/compare/1.2.0...main)
 
