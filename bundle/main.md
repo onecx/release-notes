@@ -1,5 +1,5 @@
 name: Onecx
-version: latest
+version: main
 products:
   onecx-product-store:
     name: onecx-product-store
