@@ -1,4 +1,4 @@
-# Onecx latest...main
+# Onecx 2024-11-15...main
 
 ## onecx-announcement 1.2.0...main
 
@@ -20,6 +20,7 @@
 
 * [#1](https://github.com/onecx/onecx-data-orchestrator-ui/pull/1) - feat: init impl `config` 
 * [#7](https://github.com/onecx/onecx-data-orchestrator-ui/pull/7) - feat: update package-lock 
+* [#9](https://github.com/onecx/onecx-data-orchestrator-ui/pull/9) - Feature/details and improvements 
 
 ## onecx-help 1.1.0...main
 
