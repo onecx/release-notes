@@ -7,8 +7,12 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Display messages on import conflicts (planned)
     * Allow the deletion of an application (planned)
     * Role filter in detail (planned)
-* User Profile [1.4.0](releases/20241112/onecx-user-profile.md)
-    * Fix: Use HTTP Status code 204 if avatar image does not exist (to be fixed in lib)
+
+
+## Release 2024-11-15
+* Use OneCX lib version 5.26.0
+* User Profile [1.4.0](releases/20241115/onecx-user-profile.md)
+    * Fix: Use HTTP Status code 204 if avatar image does not exist
 
 
 ## Release 2024-11-14
