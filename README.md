@@ -4,9 +4,22 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 ## Release 2024-11-xx
 * Use OneCX lib version 5.yy.z
 * Permission
+    * Fix: update Angular setup
     * Display messages on import conflicts (planned)
     * Allow the deletion of an application (planned)
     * Role filter in detail (planned)
+* Product Store 1.4.0
+    * Fix: remove unused scope ocx-ws:read
+* Shell 1.6.0
+    * Fix: ...
+* Theme 1.4.0
+    * Fix: remove unused scope ocx-ws:read
+* User Profile 1.5.0
+    * Fix: user profile search
+* Workspace 1.4.0
+    * Fix: update Angular setup
+    * Feat: imrove layout of menu mgmt
+    * Feat: if IAM cannot be used then disable use in roles TAB
 
 
 ## Release 2024-11-15
