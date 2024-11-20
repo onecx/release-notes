@@ -5,6 +5,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * Use OneCX lib version 5.yy.z
 * Permission
     * Fix: update Angular setup
+    * If IAM cannot be used then ...
     * Display messages on import conflicts (planned)
     * Allow the deletion of an application (planned)
     * Role filter in detail (planned)
@@ -18,8 +19,9 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: user profile search
 * Workspace 1.4.0
     * Fix: update Angular setup
-    * Feat: imrove layout of menu mgmt
-    * Feat: if IAM cannot be used then disable use in roles TAB
+    * Improve layout of menu mgmt
+    * Improve layout of deletion dialogs
+    * If IAM cannot be used then disable the use in roles TAB
 
 
 ## Release 2024-11-15
