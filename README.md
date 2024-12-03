@@ -4,17 +4,20 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 ## Release 2024-12-xx
 * Use OneCX lib version 5.yy.z
 * For all UIs: Bitnami image replaced by native nginx image
-* User Profile 1.6.0
-    * Fix: manage profile if user does not exist anymore in IDM (planned)
-* Workspace 1.5.0
-    * Add role preview for menu (planned)
 * Announcement 1.3.0
     * Fix: update Angular setup (planned)
 * Help 1.2.0
     * Fix: update Angular setup (planned)
     * Improve test coverage (planned)
+* Permissions 1.4.0
+    * Display message if IAM user not exists in RC user permissions
 * Product Store 1.4.0
     * Fix: remove unused scope ocx-ws:read
+* User Profile 1.6.0
+    * Fix: manage profile if user does not exist anymore in IDM (planned)
+* Workspace 1.5.0
+    * Add role preview for menu (planned)
+
 
 
 ## Release 2024-12-02
