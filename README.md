@@ -25,8 +25,6 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Layout improvements in detail dialogue (zebra look, frozen columns)
     * If IAM is not available then display message
     * Display messages on import conflicts
-* Product Store 1.4.0
-    * Fix: remove unused scope ocx-ws:read
 * Shell 1.6.0
     * Improve start/default pages used if something went wrong on page loading
     * Fix: favicon URL
