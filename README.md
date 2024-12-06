@@ -14,9 +14,13 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * Product Store 1.4.0
     * Fix: remove unused scope ocx-ws:read
 * User Profile 1.6.0
-    * Fix: manage profile if user does not exist anymore in IDM (planned)
+    * Fix: Display dedicated message on detail if user does not exist anymore in IDM
+    * Use profile id instead user id (IAM) on admin requests
+    * Improve layout and permission handling within profile search
+    * Reduce number of backend requests
 * Workspace 1.5.0
     * Add role preview for menu (planned)
+
 
 
 
