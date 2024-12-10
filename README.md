@@ -8,8 +8,9 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: align Angular setup
     * Improve layouts and efficiency of search and detail dialogg (frozen columns, ...)
 * Help 1.2.0
-    * Fix: update Angular setup (planned)
+    * Fix: align Angular setup
     * Improve test coverage (planned)
+    * Improve layouts and efficiency of search and detail dialogg (frozen columns, ...) (planned)
 * Permissions 1.4.0
     * Display message if IAM user not exists in RC user permissions
 * Product Store 1.4.0
@@ -25,8 +26,6 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: align Angular setup
 * Workspace 1.5.0
     * Add role preview for menu (planned)
-
-
 
 
 ## Release 2024-12-02
