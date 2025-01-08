@@ -1,16 +1,17 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
-## Release 2024-12-xx
-* Use OneCX lib version 5.yy.z
+## Release 2025-01-10
+* Use OneCX lib version 5.28.0
 * For all UIs: Bitnami image replaced by native nginx image
 * Announcement 1.3.0
     * Fix: align Angular setup
-    * Improve layouts and efficiency of search and detail dialogg (frozen columns, ...)
+    * Improve layout and efficiency of search page (frozen columns, ...)
+    * Improve layout of detail dialog: using TABs
 * Help 1.2.0
     * Fix: align Angular setup
     * Improve test coverage (planned)
-    * Improve layouts and efficiency of search and detail dialogg (frozen columns, ...) (planned)
+    * Improve layouts and efficiency of search and detail dialogg (frozen columns, ...)
 * Permissions 1.4.0
     * Display message if IAM user not exists in RC user permissions
 * Product Store 1.4.0
@@ -25,7 +26,9 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * Welcome 1.3.0
     * Fix: align Angular setup
 * Workspace 1.5.0
-    * Add role preview for menu (planned)
+    * Fix: Preview menu during workspace import
+    * Improve layout of menu mgmt
+    * Add role filter to display the menu according to selected roles
 
 
 ## Release 2024-12-02
