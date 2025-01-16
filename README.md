@@ -1,56 +1,65 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
-## Release 2025-01-10
-* Use OneCX lib version 5.28.0
+## Release 2025-01-16
+* For all UIs: Use OneCX lib version 5.30.0
 * For all UIs: Bitnami image replaced by native nginx image
-* Announcement 1.3.0
+* For all UIs: using docker-spa 1.10.0
+* For all UIs: Security improvements
+* Announcement [1.3.0](releases/20250116/onecx-announcement.md)
     * Fix: align Angular setup
     * Improve layout and efficiency of search page (frozen columns, ...)
     * Improve layout of detail dialog: using TABs
-* Help 1.2.0
+* Data Orchestrator [1.2.0](releases/20250116/onecx-data-orchestrator.md)
+* IAM [1.2.0](releases/20250116/onecx-iam.md)
+* Help [1.2.0](releases/20250116/onecx-help.md)
     * Fix: align Angular setup
-    * Improve test coverage (planned)
-    * Improve layouts and efficiency of search and detail dialogg (frozen columns, ...)
-* Permissions 1.4.0
+    * Improve layouts and efficiency of search and detail dialog (frozen columns, ...)
+* Permissions [1.4.0](releases/20250116/onecx-permission.md)
     * Display message if IAM user not exists in RC user permissions
-* Product Store 1.4.0
+* Product Store [1.4.0](releases/20250116/onecx-product-store.md)
     * Fix: remove unused scope ocx-ws:read
-* Shell 1.7.0
-    * ...
-* User Profile 1.6.0
+* Shell 1.7.0[1.7.0](releases/20250116/onecx-shell.md)
+    * Add OneCX background image
+    * Improve error pages used if something went wrong during app/page loading
+* Theme [1.5.0](releases/20250116/onecx-theme.md)
+* Tenant [1.2.0](releases/20250116/onecx-tenant.md)
+* User Profile [1.6.0](releases/20250116/onecx-user-profile.md)
     * Fix: Display dedicated message on detail if user does not exist anymore in IDM
     * Use profile id instead user id (IAM) on admin requests
     * Improve layout and permission handling within profile search
     * Reduce number of backend requests
-* Welcome 1.3.0
+* Welcome [1.3.0](releases/20250116/onecx-welcome.md)
+    * Add OneCX background image
     * Fix: align Angular setup
-* Workspace 1.5.0
+* Workspace [1.5.0](releases/20250116/onecx-workpace.md)
     * Fix: Preview menu during workspace import
     * Improve layout of menu mgmt
-    * Add role filter to display the menu according to selected roles
+    * Add role filter in menu mgmt to display the menu according to selected roles
 
 
 ## Release 2024-12-02
 * Use OneCX lib version 5.28.0
-* Permission
+* Permission [1.3.0](releases/20241202/onecx-permission.md)
     * Fix: update Angular setup
     * Added a filter for role in detail dialogue
     * Layout improvements in detail dialogue (zebra look, frozen columns)
     * If IAM is not available then display message
     * Display messages on import conflicts
-* Shell 1.6.0
+* Product Store [1.4.0](releases/20241202/onecx-product-store.md)
+    * Fix: remove unused scope ocx-ws:read
+* Shell [1.6.0](releases/20241202/onecx-shell.md)
     * Improve start/default pages used if something went wrong on page loading
     * Fix: favicon URL
-* Theme 1.4.0
+* Theme [1.4.0](releases/20241202/onecx-theme.md)
     * Fix: update Angular setup
     * Fix: remove unused scope ocx-ws:read
-* User Profile 1.5.0
+* User Profile [1.5.0](releases/20241202/onecx-user-profile.md)
     * Fix: update Angular setup
     * Fix: user profile search
     * Fix: manage avatar images of user
     * Improve test coverage
-* Workspace 1.4.0
+* Workspace [1.4.0](releases/20241202/onecx-workspace.md)
     * Fix: update Angular setup
     * Improve layout of menu mgmt
     * Improve layout of deletion dialogs
