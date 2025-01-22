@@ -1,6 +1,20 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
+## Release 2025-0x-xx (planned)
+* Help 1.3.0
+    * Improve test coverage (planned)
+* Product Store 1.5.0
+    * New UI permission: ENDPOINT#SEARCH
+    * Feat: added endpoint overview page
+    * Fix: search by criteria
+* Theme 1.6.0
+    * Feat: prevent theme deletion in UI if theme is used by a workspace
+    * Improve save-as dialog and fix auto apply
+* Workspace 1.6.0
+    * 
+
+
 ## Release 2025-01-16
 * For all UIs: Use OneCX lib version 5.30.0
 * For all UIs: Bitnami image replaced by native nginx image
