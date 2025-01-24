@@ -1,16 +1,21 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
+
 ## Release 2025-0x-xx (planned)
+* For all UIs: Use OneCX lib version 5.xx.x
+* For all UIs: using docker-spa 1.xx.x
 * Help 1.3.0
     * Improve test coverage (planned)
 * Product Store 1.5.0
     * New UI permission: ENDPOINT#SEARCH
     * Feat: added endpoint overview page
     * Fix: search by criteria
+* Shell 1.8.0
 * Theme 1.6.0
+    * Feat: Improve save-as dialog and fix auto apply in designer
     * Feat: prevent theme deletion in UI if theme is used by a workspace
-    * Improve save-as dialog and fix auto apply
+    * Feat: use ico format for favicon upload
 * Workspace 1.6.0
     * 
 
@@ -33,7 +38,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Display message if IAM user not exists in RC user permissions
 * Product Store [1.4.0](releases/20250116/onecx-product-store.md)
     * Fix: remove unused scope ocx-ws:read
-* Shell 1.7.0[1.7.0](releases/20250116/onecx-shell.md)
+* Shell [1.7.0](releases/20250116/onecx-shell.md)
     * Add OneCX background image
     * Improve error pages used if something went wrong during app/page loading
 * Theme [1.5.0](releases/20250116/onecx-theme.md)
