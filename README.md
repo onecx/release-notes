@@ -2,14 +2,13 @@
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
 
-## Release 2025-01-31
+## Release 2025-02-03
 * For all UIs: Use OneCX lib version 5.30.0
 * For all UIs: using docker-spa 1.11.0
 * Announcement 1.4.0
 * Data Orchestrator 1.3.0
 * IAM 1.3.0
 * Help 1.3.0
-    * Improve test coverage (planned)
 * Permissions 1.5.0
     * Display message if IAM user not exists in RC user permissions
 * Product Store 1.5.0
@@ -17,17 +16,17 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: added endpoint overview page
     * Fix: search by criteria
 * Shell 1.8.0
-* Tenant 1.3.0
+* Tenant 1.4.0
 * Theme 1.6.0
     * Feat: Improve save-as dialog and fix auto apply in designer
     * Feat: prevent theme deletion in UI if theme is used by a workspace
     * Feat: allow ico as accepted format for favicon
     * Feat: store and use original MIME-TYPE for favicon and logo
+* User Profile 1.7.0
 * Welcome 1.4.0
     * Feat: New styling option for each image setting CSS properties in detail dialog
     * Feat: Improve detail dialog: step through all images
-    * Feat: Forground color uses an inverted color as used for background
-* User Profile 1.7.0
+    * Feat: Foreground color uses an inverted color as used for background
 * Workspace 1.6.0
     * Feat: Display names of registered applications are editable now
     * Feat: Import workspaces do not overwrite existing workspaces
