@@ -22,10 +22,11 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Improve save-as dialog and fix auto apply in designer
     * Feat: prevent theme deletion in UI if theme is used by a workspace
     * Feat: allow ico as accepted format for favicon
+    * Feat: store and use original MIME-TYPE for favicon and logo
 * Welcome 1.4.0
     * Feat: New styling option for each image setting CSS properties in detail dialog
     * Feat: Improve detail dialog: step through all images
-    * Feat: Forground color uses the difference color as used for background
+    * Feat: Forground color uses an inverted color as used for background
 * User Profile 1.7.0
 * Workspace 1.6.0
     * Feat: Display names of registered applications are editable now
