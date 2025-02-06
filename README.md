@@ -2,6 +2,29 @@
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
 
+## Release 2025-02-xx
+* For all UIs: Use OneCX lib version 5.xx.x
+* For all UIs: using docker-spa 1.xx.0
+* Bookmark 1.5.0
+    * Feat: external URLs (planned)
+* IAM 1.4.0 => need tbc.
+    * Increase the max number search result in UI => 1000
+    * User per Role => GET /admin/realms/{realm}/roles/{role-name}/users
+    * User Count => GET /admin/realms/{realm}/users/count
+    * User Roles => GET /admin/realms/{realm}/users/profile/metadata
+* Help 1.4.0
+    * Improve test coverage (planned)
+* Product Store 1.6.0
+    * Fix: enable endpoint TAB in app detail dialog again
+* Shell 1.9.0
+    * Fix: Reduce number of logo image loading (planned)
+* Welcome 1.5.0
+    * Feat: Import and Export of Welcome configuration and images
+    * Improve test coverage
+* Workspace 1.6.0
+    * Fix: Adjust translations
+
+
 ## Release 2025-02-03
 * For all UIs: Use OneCX lib version 5.30.0
 * For all UIs: using docker-spa 1.11.0
