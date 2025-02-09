@@ -6,7 +6,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * For all UIs: Use OneCX lib version 5.xx.x
 * For all UIs: using docker-spa 1.xx.0
 * IAM 1.4.0 => need tbc.
-    * Increase the max number search result in UI => 1000
+    * Use 1000 as pagesize for user/role searching
     * User per Role => GET /admin/realms/{realm}/roles/{role-name}/users
     * User Count => GET /admin/realms/{realm}/users/count
     * User Roles => GET /admin/realms/{realm}/users/profile/metadata
