@@ -6,11 +6,30 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * For all UIs: Use OneCX lib 5.xx.x
 * For all UIs: Use docker-spa 1.xx.0
 * For all UIs: Use Angular 18.x.xx
+* For all SVC/BFFs: Use Quarkus 3.20.xx
+* Announcement 1.6.0
+    * Feat: Use product information via slot and remote component (planned)
+* IAM 1.6.0
+    * Feat: Multi Keycloak support (planned)
+    * Feat: Use product information via slot and remote component (planned)
 * Help 1.5.0
     * Improve test coverage (planned)
-* User Profile 1.8.0-rc.21
+    * Feat: Use product information via slot and remote component (planned)
+* Product Store 1.7.0
+    * Feat: Product product information via remote component (planned)
+* Shell 1.10.0
+    * Fix: translate "Unauthorized" (planned)
+    * Fix: Vertical main menu disappears on clos/open (planned)
+    * Feat: new default favicon (planned)
+    * Feat: Use a slot to display portal footer (planned)
+* User Profile 1.9.0
     * Fix: Display the current avatar image after change (planned)
     * Feat: Improve avatar image compression (planned)
+* Workspace 1.10.0
+    * Feat: Avatar image compression (planned)
+    * Feat: Improve workspace export: sorting product, slots, components by name (planned)
+    * Feat: Improve slot TAB layout using a tree (planned)
+    * Feat: Provide a remote component for portal footer (planned)
 
 
 ## Release 2025-03-17
