@@ -13,15 +13,17 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Improve avatar image compression (planned)
 
 
-## Release 2025-03-13
+## Release 2025-03-17
 * For all UIs: Use OneCX lib 5.32.1
 * For all UIs: Use docker-spa 1.14.0
 * For all UIs: Use Angular 18.2.12
-* Announcement 1.5.0-rc.14
-    * OneCX lib 5.32.1 ??
-* Data Orchestrator 1.4.0-rc.20
-* IAM 1.5.0-rc.41
-    * Feat: Increase the max number search result in UI => 1000
+* For all SVC/BFFs: Use Quarkus 3.15.xx
+* Announcement 1.5.0-rc.16
+* Data Orchestrator 1.4.0-rc.22
+* IAM 1.5.0-rc.49
+    * Feat: Add realm as search criteria (single value drop down)
+      * Permission: REALM # SEARCH
+      * Permission: realm # read
     * Feat: Display user details within modal dialog => USER#VIEW
       * Permission: IAM_ROLE # VIEW
     * Feat: Display user permissions within modal dialog
@@ -30,31 +32,31 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Provide Remote Component for IAM User Roles
       * Component: ./OneCXIamUserRolesComponent
 * Help 1.4.0-rc.14
-* Permissions 1.6.0-rc.25
+* Permissions 1.6.0-rc.33
     * Feat: Display user assigned roles contained in token or iam roles
       * Slot: onecx-permission-iam-user-roles => ./OneCXIamUserRolesComponent
       * Permission: IAM_ROLE#VIEW
     * Feat: Improve layout of app search using ocx-chip
-* Product Store 1.6.0-rc.26
+* Product Store 1.6.0-rc.29
     * Fix: enable endpoint TAB in app detail dialog again
     * Feat: Linking app detail from endpoint search results
-* Shell 1.9.0-rc.13
+* Shell 1.9.0-rc.14
     * Fix: Use empty favicon if theme does not provide favicon
     * Fix: Reduce number of logo image loading
     * Fix: Cleanup basic layout of header, footer, menu sections
     * Fix: Disable limitations of dimensions (overflow, height) of modal dialogs
-* Tenant 1.5.0-rc.16
-* Theme 1.7.0-rc.24
+* Tenant 1.5.0-rc.18
+* Test 1.1.0
+* Theme 1.7.0-rc.27
     * Feat: Add deletion of logo and favicon
     * Feat: Add mandatory flag and manag it in designer dialog
     * Feat: Improve deletion dialog: prevent deletion if mandatory flag is set or Theme is in use
-* User Profile 1.8.0-rc.23
+* User Profile 1.8.0-rc.27
     * Feat: Added permission to see IAM user roles
-      * IAM_ROLE#VIEW
-* Welcome 1.6.0-rc.17
+* Welcome 1.6.0-rc.19
     * Feat: Import and Export of Welcome configuration and images
     * Fix: Improve test coverage
-* Workspace 1.6.0-rc.35
+* Workspace 1.9.0-rc.40
     * Fix: Adjust translations
     * Fix: Multiple reorder of reg. products
     * Feat: Fallback theme on import
@@ -62,6 +64,8 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Improve Workspace role detail layout
     * Feat: Improve Workspace import
     * Feat: Improve layout of roles and slots overview using ocx-chip
+    * Feat: Use specific slot and IAM remote component to display IAM roles
+      * Slot: onecx-iam-user-roles => ./OneCXIamUserRolesComponent
 
 
 ## Release 2025-02-03
