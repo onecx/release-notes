@@ -37,9 +37,9 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * For all UIs: Use docker-spa 1.14.0
 * For all UIs: Use Angular 18.2.12
 * For all SVC/BFFs: Use Quarkus 3.15.xx
-* Announcement 1.5.0-rc.16
-* Data Orchestrator 1.4.0-rc.22
-* IAM 1.5.0-rc.49
+* Announcement 1.5.0-rc.20
+* Data Orchestrator 1.4.0-rc.26
+* IAM 1.5.0-rc.55
     * Feat: Add realm as search criteria (single value drop down)
       * Permission: REALM # SEARCH
       * Permission: realm # read
@@ -50,34 +50,36 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
       * Permission: PERMISSION#VIEW
     * Feat: Provide Remote Component for IAM User Roles
       * Component: ./OneCXIamUserRolesComponent
-* Help 1.4.0-rc.14
-* Permissions 1.6.0-rc.33
+* Help 1.4.0-rc.20
+* Permissions 1.6.0-rc.38
     * Feat: Display user assigned roles contained in token or iam roles
       * Slot: onecx-permission-iam-user-roles => ./OneCXIamUserRolesComponent
       * Permission: IAM_ROLE#VIEW
     * Feat: Improve layout of app search using ocx-chip
-* Product Store 1.6.0-rc.29
+* Product Store 1.6.0-rc.35
     * Fix: enable endpoint TAB in app detail dialog again
     * Feat: Linking app detail from endpoint search results
-* Shell 1.9.0-rc.14
+* Shell 1.9.0-rc.16
     * Fix: Use empty favicon if theme does not provide favicon
     * Fix: Reduce number of logo image loading
     * Fix: Cleanup basic layout of header, footer, menu sections
     * Fix: Disable limitations of dimensions (overflow, height) of modal dialogs
-* Tenant 1.5.0-rc.18
-* Test 1.1.0
-* Theme 1.7.0-rc.27
+* Tenant 1.5.0-rc.22
+* Test 1.2.0-rc.1
+* Theme 1.7.0-rc.30
     * Feat: Add deletion of logo and favicon
     * Feat: Add mandatory flag and manag it in designer dialog
     * Feat: Improve deletion dialog: prevent deletion if mandatory flag is set or Theme is in use
-* User Profile 1.8.0-rc.27
+* User Profile 1.8.0-rc.33
     * Feat: Added permission to see IAM user roles
-* Welcome 1.6.0-rc.19
+* Welcome 1.6.0-rc.33
+    * Feat: Use OneCX standard page layout for Welcome Configuration
     * Feat: Import and Export of Welcome configuration and images
-    * Fix: Improve test coverage
-* Workspace 1.9.0-rc.40
+    * Feat: Improve responsive layout
+    * Feat: Improve test coverage
+* Workspace 1.9.0-rc.46
     * Fix: Adjust translations
-    * Fix: Multiple reorder of reg. products
+    * Fix: Multiple reorder of registered products
     * Feat: Fallback theme on import
     * Feat: Improve Workspace menu and detail layout
     * Feat: Improve Workspace role detail layout
