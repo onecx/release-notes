@@ -56,7 +56,8 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
       * Slot: onecx-permission-iam-user-roles => ./OneCXIamUserRolesComponent
       * Permission: IAM_ROLE#VIEW
     * Feat: Improve layout of app search using ocx-chip
-* Product Store 1.6.0-rc.35
+* Product Store 1.6.0-rc.36
+    * Fix: filter for product classifications
     * Fix: enable endpoint TAB in app detail dialog again
     * Feat: Linking app detail from endpoint search results
 * Shell 1.9.0-rc.16
@@ -65,19 +66,19 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: Cleanup basic layout of header, footer, menu sections
     * Fix: Disable limitations of dimensions (overflow, height) of modal dialogs
 * Tenant 1.5.0-rc.22
-* Test 1.2.0-rc.1
+* Test 1.2.0
 * Theme 1.7.0-rc.30
     * Feat: Add deletion of logo and favicon
     * Feat: Add mandatory flag and manag it in designer dialog
     * Feat: Improve deletion dialog: prevent deletion if mandatory flag is set or Theme is in use
 * User Profile 1.8.0-rc.33
     * Feat: Added permission to see IAM user roles
-* Welcome 1.6.0-rc.33
+* Welcome 1.6.0-rc.36
     * Feat: Use OneCX standard page layout for Welcome Configuration
     * Feat: Import and Export of Welcome configuration and images
     * Feat: Improve responsive layout
     * Feat: Improve test coverage
-* Workspace 1.9.0-rc.46
+* Workspace 1.9.0-rc.50
     * Fix: Adjust translations
     * Fix: Multiple reorder of registered products
     * Feat: Fallback theme on import
