@@ -15,21 +15,37 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * Help 1.5.0
     * Improve test coverage (planned)
     * Feat: Use product information via slot and remote component (planned)
-* Product Store 1.7.0
-    * Feat: Product product information via remote component (planned)
-* Shell 1.10.0
+* Parameter 1.0.0
+* Product Store 1.8.0
+    * Feat: Product product information via remote component
+* Shell 1.11.0-rc.xx
     * Fix: translate "Unauthorized" (planned)
     * Fix: Vertical main menu disappears on clos/open (planned)
     * Feat: new default favicon (planned)
-    * Feat: Use a slot to display portal footer (planned)
+    * Feat: Use a slot to display workspace footer (in progress)
+      * SLOT: onecx-workspace-footer
+    * Feat: Improve reload on error  (planned)
+    * Feat: Functionality to be informed about errors on RC loading (planned)
+* Theme 1.8.0-rc.xx
+    * Feat: Provide thee data as remote component
 * User Profile 1.9.0
     * Fix: Display the current avatar image after change (planned)
     * Feat: Improve avatar image compression (planned)
-* Workspace 1.10.0
+* Workspace 1.11.0-rc.xx
     * Feat: Avatar image compression (planned)
     * Feat: Improve workspace export: sorting product, slots, components by name (planned)
     * Feat: Improve slot TAB layout using a tree (planned)
     * Feat: Provide a remote component for portal footer (planned)
+      * SLOT: onecx-theme-infos
+
+
+## Release 2025-04-02
+* Product Store 1.7.0
+    * Feat: Bigger tiles for product search results
+* Shell 1.10.0
+    * Fix: Set height of main content area to 100%
+* Workspace 1.10.0
+    * Feat: Bigger tiles for workspace search results
 
 
 ## Release 2025-03-17
