@@ -3,7 +3,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 
 
 ## Release 2025-04-xx
-* For all UIs: Use OneCX lib 5.xx.x
+* For all UIs: Use OneCX lib 5.34.0
 * For all UIs: Use docker-spa 1.xx.0
 * For all UIs: Use Angular 18.x.xx
 * For all SVC/BFFs: Use Quarkus 3.20.xx
@@ -22,12 +22,15 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: translate "Unauthorized" (planned)
     * Fix: Vertical main menu disappears on clos/open (planned)
     * Feat: new default favicon (planned)
-    * Feat: Use a slot to display workspace footer (in progress)
-      * SLOT: onecx-workspace-footer
+    * Feat: Use a slot to display page footer
+      * SLOT: onecx-page-footer => new => ./OneCXWorkspaceFooterComponent (workspace)
+      * SLOT: onecx-shell-footer => outdated
     * Feat: Improve reload on error  (planned)
     * Feat: Functionality to be informed about errors on RC loading (planned)
 * Theme 1.8.0-rc.xx
-    * Feat: Provide thee data as remote component
+    * Feat: Improve layout of tiles in theme search results
+    * Feat: Provide a remote component for theme information (logo, themes etc.)
+      * Component: ./OneCXThemeInfosComponent => onecx-theme-infos (workspace)
 * User Profile 1.9.0
     * Fix: Display the current avatar image after change (planned)
     * Feat: Improve avatar image compression (planned)
@@ -35,8 +38,11 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Avatar image compression (planned)
     * Feat: Improve workspace export: sorting product, slots, components by name (planned)
     * Feat: Improve slot TAB layout using a tree (planned)
-    * Feat: Provide a remote component for portal footer (planned)
-      * SLOT: onecx-theme-infos
+    * Feat: Improve workspace detail: use display names of Themes and show theme logo
+    * Feat: Provide a remote component for page footer
+      * Component: ./OneCXWorkspaceFooterComponent => onecx-page-footer (shell ui)
+      * SLOT: onecx-page-footer-menu => new => ./OneCXFooterMenuComponent (workspace)
+      * SLOT: onecx-theme-infos => new => ./OneCXThemeInfosComponent (theme)
 
 
 ## Release 2025-04-02
