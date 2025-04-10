@@ -3,7 +3,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 
 
 ## Release 2025-04-xx
-* For all UIs: Use OneCX lib 5.34.0
+* For all UIs: Use OneCX lib 5.34.2
 * For all UIs: Use docker-spa 1.xx.0
 * For all UIs: Use Angular 18.x.xx
 * For all SVC/BFFs: Use Quarkus 3.20.xx
@@ -13,36 +13,41 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Multi Keycloak support (planned)
     * Feat: Use product information via slot and remote component (planned)
 * Help 1.5.0
-    * Improve test coverage (planned)
+    * Feat: Improve test coverage
     * Feat: Use product information via slot and remote component (planned)
 * Parameter 1.0.0
 * Product Store 1.8.0
-    * Feat: Product product information via remote component
+    * Feat: Add product search criteria for provider and classifications
+      * Model change: new table PRODUCT_CLASSIFICATION with 1:n realtionship to product
+    * Feat: Provide product information via remote component (planned)
 * Shell 1.11.0-rc.xx
-    * Fix: translate "Unauthorized" (planned)
-    * Fix: Vertical main menu disappears on clos/open (planned)
-    * Feat: new default favicon (planned)
+    * Fix: Improve menu and topbar styles
     * Feat: Use a slot to display page footer
       * SLOT: onecx-page-footer => new => ./OneCXWorkspaceFooterComponent (workspace)
       * SLOT: onecx-shell-footer => outdated
+    * Fix: translate "Unauthorized" (planned)
+    * Fix: Vertical main menu disappears on clos/open (planned)
+    * Feat: new default favicon (planned)
     * Feat: Improve reload on error  (planned)
     * Feat: Functionality to be informed about errors on RC loading (planned)
 * Theme 1.8.0-rc.xx
     * Feat: Improve layout of tiles in theme search results
     * Feat: Provide a remote component for theme information (logo, themes etc.)
-      * Component: ./OneCXThemeInfosComponent => onecx-theme-infos (workspace)
+      * Component: ./OneCXThemeDataComponent => onecx-theme-data (workspace)
 * User Profile 1.9.0
-    * Fix: Display the current avatar image after change (planned)
-    * Feat: Improve avatar image compression (planned)
+    * Fix: Uploading big avatar image successfully
+    * Feat: Uploading avatar images up to 500.000 bytes
+    * Feat: Improve avatar image compression
 * Workspace 1.11.0-rc.xx
-    * Feat: Avatar image compression (planned)
-    * Feat: Improve workspace export: sorting product, slots, components by name (planned)
-    * Feat: Improve slot TAB layout using a tree (planned)
+    * Feat: Improve layout of displaying avatar image and user display name within user menu
     * Feat: Improve workspace detail: use display names of Themes and show theme logo
     * Feat: Provide a remote component for page footer
-      * Component: ./OneCXWorkspaceFooterComponent => onecx-page-footer (shell ui)
+      * Component: ./OneCXWorkspaceFooterComponent => onecx-page-footer (shell)
       * SLOT: onecx-page-footer-menu => new => ./OneCXFooterMenuComponent (workspace)
-      * SLOT: onecx-theme-infos => new => ./OneCXThemeInfosComponent (theme)
+      * SLOT: onecx-theme-data => new => ./OneCXThemeDataComponent (theme)
+    * Feat: Improve workspace export: sorting product, slots, components by name
+    * Feat: Improve workspace import: upload possible if display name, theme, base url are missing
+    * Feat: Improve slot TAB layout using a tree with several quick views (planned)
 
 
 ## Release 2025-04-02
