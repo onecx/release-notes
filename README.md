@@ -2,52 +2,72 @@
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
 
-## Release 2025-04-xx
-* For all UIs: Use OneCX lib 5.34.2
+## Release 2025-05-xx
+* For all UIs: Use OneCX lib 5.xx.y
 * For all UIs: Use docker-spa 1.xx.0
 * For all UIs: Use Angular 18.x.xx
 * For all SVC/BFFs: Use Quarkus 3.20.xx
 * Announcement 1.6.0
-    * Feat: Use product information via slot and remote component (planned)
+    * Feat: Use product data via slot and remote component (planned)
+    * Feat: Use workspace data via slot and remote component (planned)
 * IAM 1.6.0
     * Feat: Multi Keycloak support (planned)
-    * Feat: Use product information via slot and remote component (planned)
+    * Feat: Use product data via slot and remote component (planned)
 * Help 1.5.0
     * Feat: Improve test coverage
-    * Feat: Use product information via slot and remote component (planned)
-* Parameter 1.0.0
+    * Feat: Use product data via slot and remote component (planned)
 * Product Store 1.8.0
-    * Feat: Add product search criteria for provider and classifications
-      * Model change: new table PRODUCT_CLASSIFICATION with 1:n realtionship to product
-    * Feat: Provide product information via remote component (planned)
+    * Feat: Provide product data via remote component (planned)
 * Shell 1.11.0-rc.xx
-    * Fix: Improve menu and topbar styles
-    * Feat: Use a slot to display page footer
-      * SLOT: onecx-page-footer => new => ./OneCXWorkspaceFooterComponent (workspace)
-      * SLOT: onecx-shell-footer => outdated
+    * Feat: Functionality to be informed about errors on RC loading (planned)
     * Fix: translate "Unauthorized" (planned)
     * Fix: Vertical main menu disappears on clos/open (planned)
     * Feat: new default favicon (planned)
     * Feat: Improve reload on error  (planned)
-    * Feat: Functionality to be informed about errors on RC loading (planned)
-* Theme 1.8.0-rc.xx
+* Workspace 1.12.0-rc.xx
+    * Feat: Improve slot TAB layout using a tree with several quick views (planned)
+    * Feat: Display indicator of non-existing theme on workspace tiles (planned)
+    * Feat: Use product data via slot and remote component in product TAB (planned)
+
+
+## Release 2025-04-12
+* For all UIs: Use OneCX lib 5.34.5
+* For all UIs: Use docker-spa 1.14.0
+* For all UIs: Use Angular 18.2.13
+* For all SVC/BFFs: Use Quarkus 3.15.0
+* Permissions 1.7.0
+    * Fix: Improve Microservice display names
+* Product Store 1.8.0
+    * Fix: Improve Microservice display names
+    * Feat: Add product search criteria for provider and classifications
+      * Model change: new table PRODUCT_CLASSIFICATION with 1:n realtionship to product
+* Shell 1.11.0
+    * Fix: Improve Microservice display names
+    * Fix: Improve menu and topbar styles
+    * Feat: Use a slot to display page footer
+      * SLOT: onecx-page-footer => new => ./OneCXWorkspaceFooterComponent (workspace)
+      * SLOT: onecx-shell-footer => outdated
+* Theme 1.8.0
+    * Fix: Improve Microservice display names
     * Feat: Improve layout of tiles in theme search results
     * Feat: Provide a remote component for theme information (logo, themes etc.)
       * Component: ./OneCXThemeDataComponent => onecx-theme-data (workspace)
 * User Profile 1.9.0
+    * Fix: Improve Microservice display names
     * Fix: Uploading big avatar image successfully
     * Feat: Uploading avatar images up to 500.000 bytes
     * Feat: Improve avatar image compression
 * Workspace 1.11.0-rc.xx
-    * Feat: Improve layout of displaying avatar image and user display name within user menu
-    * Feat: Improve workspace detail: use display names of Themes and show theme logo
+    * Fix: Improve Microservice display names
+    * Fix: Use default avatar icons if avatar image cannot ne loaded, in user sidebar/avatar menu
     * Feat: Provide a remote component for page footer
       * Component: ./OneCXWorkspaceFooterComponent => onecx-page-footer (shell)
       * SLOT: onecx-page-footer-menu => new => ./OneCXFooterMenuComponent (workspace)
       * SLOT: onecx-theme-data => new => ./OneCXThemeDataComponent (theme)
+    * Feat: Improve layout of displaying avatar image and user display name within user menu
+    * Feat: Improve workspace detail: use display names of Themes and show theme logo
     * Feat: Improve workspace export: sorting product, slots, components by name
     * Feat: Improve workspace import: upload possible if display name, theme, base url are missing
-    * Feat: Improve slot TAB layout using a tree with several quick views (planned)
 
 
 ## Release 2025-04-02
@@ -64,9 +84,9 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * For all UIs: Use docker-spa 1.14.0
 * For all UIs: Use Angular 18.2.12
 * For all SVC/BFFs: Use Quarkus 3.15.xx
-* Announcement 1.5.0-rc.20
-* Data Orchestrator 1.4.0-rc.26
-* IAM 1.5.0-rc.55
+* Announcement 1.5.0
+* Data Orchestrator 1.4.0
+* IAM 1.5.0
     * Feat: Add realm as search criteria (single value drop down)
       * Permission: REALM # SEARCH
       * Permission: realm # read
@@ -77,35 +97,35 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
       * Permission: PERMISSION#VIEW
     * Feat: Provide Remote Component for IAM User Roles
       * Component: ./OneCXIamUserRolesComponent
-* Help 1.4.0-rc.20
-* Permissions 1.6.0-rc.38
+* Help 1.4.0
+* Permissions 1.6.0
     * Feat: Display user assigned roles contained in token or iam roles
       * Slot: onecx-permission-iam-user-roles => ./OneCXIamUserRolesComponent
       * Permission: IAM_ROLE#VIEW
     * Feat: Improve layout of app search using ocx-chip
-* Product Store 1.6.0-rc.36
+* Product Store 1.6.0
     * Fix: filter for product classifications
     * Fix: enable endpoint TAB in app detail dialog again
     * Feat: Linking app detail from endpoint search results
-* Shell 1.9.0-rc.16
+* Shell 1.9.0
     * Fix: Use empty favicon if theme does not provide favicon
     * Fix: Reduce number of logo image loading
     * Fix: Cleanup basic layout of header, footer, menu sections
     * Fix: Disable limitations of dimensions (overflow, height) of modal dialogs
-* Tenant 1.5.0-rc.22
+* Tenant 1.5.0
 * Test 1.2.0
-* Theme 1.7.0-rc.30
+* Theme 1.7.0
     * Feat: Add deletion of logo and favicon
     * Feat: Add mandatory flag and manag it in designer dialog
     * Feat: Improve deletion dialog: prevent deletion if mandatory flag is set or Theme is in use
-* User Profile 1.8.0-rc.33
+* User Profile 1.8.0
     * Feat: Added permission to see IAM user roles
-* Welcome 1.6.0-rc.36
+* Welcome 1.6.0
     * Feat: Use OneCX standard page layout for Welcome Configuration
     * Feat: Import and Export of Welcome configuration and images
     * Feat: Improve responsive layout
     * Feat: Improve test coverage
-* Workspace 1.9.0-rc.50
+* Workspace 1.9.0
     * Fix: Adjust translations
     * Fix: Multiple reorder of registered products
     * Feat: Fallback theme on import
