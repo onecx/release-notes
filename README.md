@@ -30,7 +30,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Use product data via slot and remote component in product TAB (planned)
 
 
-## Release 2025-04-12
+## Release 2025-04-11
 * For all UIs: Use OneCX lib 5.34.5
 * For all UIs: Use docker-spa 1.14.0
 * For all UIs: Use Angular 18.2.13
