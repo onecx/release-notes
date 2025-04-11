@@ -47,6 +47,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Use a slot to display page footer
       * SLOT: onecx-page-footer => new => ./OneCXWorkspaceFooterComponent (workspace)
       * SLOT: onecx-shell-footer => outdated
+* Test 1.6.0
 * Theme 1.8.0
     * Fix: Improve Microservice display names
     * Feat: Improve layout of tiles in theme search results
