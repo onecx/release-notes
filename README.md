@@ -57,9 +57,11 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: Uploading big avatar image successfully
     * Feat: Uploading avatar images up to 500.000 bytes
     * Feat: Improve avatar image compression
-* Workspace 1.11.0-rc.xx
+* Workspace 1.11.0
     * Fix: Improve Microservice display names
     * Fix: Use default avatar icons if avatar image cannot ne loaded, in user sidebar/avatar menu
+    * Feat: Provide a slot for custom user info, displayed on top of avatar menu
+      * SLOT: onecx-custom-user-info => new
     * Feat: Provide a remote component for page footer
       * Component: ./OneCXWorkspaceFooterComponent => onecx-page-footer (shell)
       * SLOT: onecx-page-footer-menu => new => ./OneCXFooterMenuComponent (workspace)
