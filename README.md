@@ -35,9 +35,11 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * For all UIs: Use docker-spa 1.14.0
 * For all UIs: Use Angular 18.2.13
 * For all SVC/BFFs: Use Quarkus 3.15.0
+* Data Orchestrator 1.5.0
+    * Feat: Improve UI: responsible forms, fix minor UI issues
 * Permissions 1.7.0
     * Fix: Improve Microservice display names
-* Product Store 1.8.0
+* Product Store 1.9.0
     * Fix: Improve Microservice display names
     * Feat: Add product search criteria for provider and classifications
       * Model change: new table PRODUCT_CLASSIFICATION with 1:n realtionship to product
@@ -58,10 +60,10 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: Uploading big avatar image successfully
     * Feat: Uploading avatar images up to 500.000 bytes
     * Feat: Improve avatar image compression
-* Workspace 1.11.0
+* Workspace 1.12.0
     * Fix: Improve Microservice display names
     * Fix: Use default avatar icons if avatar image cannot ne loaded, in user sidebar/avatar menu
-    * Feat: Provide a slot for custom user info, displayed on top of avatar menu
+    * Feat: Provide a slot for additional custom user info, displayed on top of avatar menu, below user name
       * SLOT: onecx-custom-user-info => new
     * Feat: Provide a remote component for page footer
       * Component: ./OneCXWorkspaceFooterComponent => onecx-page-footer (shell)
