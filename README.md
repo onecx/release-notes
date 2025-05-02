@@ -16,15 +16,23 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * Help 1.5.0
     * Feat: Improve test coverage
     * Feat: Use product data via slot and remote component (planned)
-* Product Store 1.8.0
+* Product Store 1.9.0
     * Feat: Provide product data via remote component (planned)
-* Shell 1.11.0-rc.xx
+* Shell 1.11.0
     * Feat: Functionality to be informed about errors on RC loading (planned)
     * Fix: translate "Unauthorized" (planned)
     * Fix: Vertical main menu disappears on clos/open (planned)
     * Feat: new default favicon (planned)
     * Feat: Improve reload on error  (planned)
-* Workspace 1.12.0-rc.xx
+* Theme 1.9.0
+    * Feat: Provide a new slot for usage of theme in workspaces
+      * SLOT: onecx-workspace-data => new => ./OneCXWorkspaceDataComponent (workspace)
+      * SLOT: onecx-theme-list-workspaces-using-theme => outdated
+* Workspace 1.16.0
+    * Fix: use product default logo in product TAB for products
+    * Feat: Improve item filter in slot detail and product TAB
+    * Feat: Provide a remote component for workspace data
+      * Component: ./OneCXWorkspaceDataComponent => onecx-workspace-data (theme, ...)
     * Feat: Improve slot TAB layout using a tree with several quick views (planned)
     * Feat: Display indicator of non-existing theme on workspace tiles (planned)
     * Feat: Use product data via slot and remote component in product TAB (planned)
@@ -60,9 +68,10 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: Uploading big avatar image successfully
     * Feat: Uploading avatar images up to 500.000 bytes
     * Feat: Improve avatar image compression
-* Workspace 1.12.0
+* Workspace 1.15.0
     * Fix: Improve Microservice display names
     * Fix: Use default avatar icons if avatar image cannot ne loaded, in user sidebar/avatar menu
+    * Feat: New Microservice onecx-workspace-api-legacy
     * Feat: Provide a slot for additional custom user info, displayed on top of avatar menu, below user name
       * SLOT: onecx-custom-user-info => new
     * Feat: Provide a remote component for page footer
