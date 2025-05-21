@@ -2,40 +2,62 @@
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
 
-## Release 2025-05-xx
-* For all UIs: Use OneCX lib 5.xx.y
+## Release 2025-06-xx
+* For all UIs: Use OneCX lib 5.38.y
 * For all UIs: Use docker-spa 1.xx.0
 * For all UIs: Use Angular 18.x.xx
 * For all SVC/BFFs: Use Quarkus 3.20.xx
 * Announcement 1.6.0
     * Feat: Use product data via slot and remote component (planned)
     * Feat: Use workspace data via slot and remote component (planned)
+      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
+* Data Orchestrator 1.6.0
+    * Fix: Editing CR
+    * Feat: Add Parameter as CR
+    * Feat: CR types are fetch from BFF (configured via env. variables)
 * IAM 1.6.0
     * Feat: Multi Keycloak support (planned)
     * Feat: Use product data via slot and remote component (planned)
 * Help 1.5.0
     * Feat: Improve test coverage
     * Feat: Use product data via slot and remote component (planned)
+      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
+* Permission 1.x.0
+    * Fix: Quick filters in search/detail page have always a value
+    * Feat: Use product data via slot and remote component (planned)
+      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
+* Parameter 1.x.0
+    * Feat: Use product data via slot and remote component (planned)
+      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
 * Product Store 1.9.0
     * Feat: Provide product data via remote component (planned)
+    * Feat: Provide a remote component for product data
+      * Component: ./OneCXProductDataComponent => onecx-product-data (help, ...)
 * Shell 1.11.0
+    * Feat: Add reload action on page for workspace initialization error
+    * Fix: URL on page initialization error is stable now on reload
     * Feat: Functionality to be informed about errors on RC loading (planned)
     * Fix: translate "Unauthorized" (planned)
-    * Fix: Vertical main menu disappears on clos/open (planned)
+    * Fix: Vertical main menu disappears on close/open (planned)
     * Feat: new default favicon (planned)
-    * Feat: Improve reload on error  (planned)
 * Theme 1.9.0
     * Feat: Provide a new slot for usage of theme in workspaces
       * SLOT: onecx-workspace-data => new => ./OneCXWorkspaceDataComponent (workspace)
       * SLOT: onecx-theme-list-workspaces-using-theme => outdated
-* Workspace 1.16.0
+* Welcome 1.x.0
+    * Fix: display a single URL background image
+* Workspace 1.x.0
+    * Fix: use native footer tag in workspace footer (aria/a11y issue)
     * Fix: use product default logo in product TAB for products
+    * Fix: Quick filters in roles/slots/products/menu TABs have always a value
+    * Feat: Extend slot quick filter for outdated slots
     * Feat: Improve item filter in slot detail and product TAB
     * Feat: Provide a remote component for workspace data
       * Component: ./OneCXWorkspaceDataComponent => onecx-workspace-data (theme, ...)
     * Feat: Improve slot TAB layout using a tree with several quick views (planned)
     * Feat: Display indicator of non-existing theme on workspace tiles (planned)
     * Feat: Use product data via slot and remote component in product TAB (planned)
+
 
 
 ## Release 2025-04-11
