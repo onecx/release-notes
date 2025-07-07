@@ -1,12 +1,13 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
-
-## Release 2025-07-xx
-* For all UIs: Use OneCX lib 5.43.y
-* For all UIs: Use docker-spa 1.xx.0
-* For all UIs: Use Angular 18.x.xx
-* For all SVC/BFFs: Use Quarkus 3.20.xx
+## Release 2025-08-xx
+* All UIs
+    * Use OneCX lib 5.43.y
+    * Use docker-spa 1.16.0
+    * Use Angular 19.x.xx
+    * Fix: Secure q endpoints
+* All SVC/BFFs: Use Quarkus 3.20.xx
 * Announcement 1.6.0
     * Feat: Use product data via slot and remote component (planned)
       * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
@@ -17,7 +18,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Add Parameter as CDR (Custom Data Resource)
     * Feat: CDR types are fetch from BFF (configured via env. variables)
 * IAM 1.6.0
-    * Feat: Multi Keycloak support for searching
+    * Feat: Multi Keycloak support for searching, perissions adjusted:
       * REALM#SEARCH             => removed
       * role,provider,user       admin-read
       * role,user                admin-write
@@ -44,9 +45,9 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Provide a remote component for product data
       * Component: ./OneCXProductDataComponent => onecx-product-data (help, ...)
 * Shell 2.0.0
-    * Feat: Add reload action on page for workspace initialization error
     * Fix: URL on page initialization error is stable now on reload
     * Fix: translate "Unauthorized" (planned)
+    * Feat: Add reload action on page for workspace initialization error
     * Feat: Functionality to be informed about errors on RC loading (planned)
     * Feat: new default favicon (planned)
 * Tenant 1.6.0
@@ -55,6 +56,9 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Provide a new slot for usage of theme in workspaces
       * SLOT: onecx-workspace-data => new => ./OneCXWorkspaceDataComponent (workspace)
       * SLOT: onecx-theme-list-workspaces-using-theme => outdated
+* User Profile 1.10.0
+    * Feat: Display IDM provider and issuer within personal data
+    * Fix: Time zone and color scheme settings disabled because they are not currently in use
 * Welcome 1.7.0
     * Fix: display a single URL background image
 * Workspace 1.17.0
@@ -69,6 +73,13 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Display indicator of non-existing theme on workspace tiles (planned)
     * Feat: Use product data via slot and remote component in product TAB (planned)
 
+
+
+## Release 2025-06-26
+* Shell 1.11.1
+    * Feat: Added tenant ID to user profile, aligned to user-profile-svc v1 API
+* User Profile 1.9.1
+    * Feat: Added tenant ID to user profile service v1 API
 
 
 ## Release 2025-04-11
