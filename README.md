@@ -32,7 +32,9 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Improve test coverage
     * Feat: Use product data via slot and remote component (planned)
       * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
-* Parameter 1.5.0
+* Parameter 1.6.0
+    * Feat: Display validation error on parameters with JSON object type
+    * Feat: parameter service v2 (change endpoints) - do not use
     * Feat: Use product data via slot and remote component
       * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
 * Permission 1.8.0
@@ -74,12 +76,9 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Use product data via slot and remote component in product TAB (planned)
 
 
-
-## Release 2025-06-26
-* Shell 1.11.1
-    * Feat: Added tenant ID to user profile, aligned to user-profile-svc v1 API
-* User Profile 1.9.1
-    * Feat: Added tenant ID to user profile service v1 API
+## Release 2025-07-11 (FIX)
+* Parameter 1.5.0
+    * Fix: Operator stores values now as imported value (before: in value)
 
 
 ## Release 2025-04-11
