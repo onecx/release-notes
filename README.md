@@ -81,6 +81,13 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Fix: Operator stores values now as imported value (before: in value)
 
 
+## Release 2025-06-26
+* Shell 1.11.1
+    * Feat: Added tenant ID to user profile, aligned to user-profile-svc v1 API
+* User Profile 1.9.1
+    * Feat: Added tenant ID to user profile service v1 API
+
+
 ## Release 2025-04-11
 * For all UIs: Use OneCX lib 5.34.5
 * For all UIs: Use docker-spa 1.14.0
