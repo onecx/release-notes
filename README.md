@@ -1,64 +1,77 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
-## Release 2025-08-xx
+## Release 2025-08-15
 * All UIs
-    * Use OneCX lib 5.43.y
-    * Use docker-spa 1.16.0
-    * Use Angular 19.x.xx
+    * Use OneCX Angular 18 Lib 5.47.4
+    * Use OneCX Angular 19 Lib 6.5.0
+    * Use docker-spa 1.18.0
     * Fix: Secure q endpoints
-* All SVC/BFFs: Use Quarkus 3.20.xx
+* All SVC/BFFs: Use Quarkus 3.20.0
 * Announcement 1.6.0
-    * Feat: Use product data via slot and remote component (planned)
-      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
-    * Feat: Use workspace data via slot and remote component (planned)
-      * SLOT: onecx-workspace-data => new => ./OneCXWorkspaceDataComponent (workspace)
 * Data Orchestrator 1.6.0
     * Fix: Editing CDR
     * Feat: Add Parameter as CDR (Custom Data Resource)
     * Feat: CDR types are fetch from BFF (configured via env. variables)
 * IAM 1.6.0
-    * Feat: Multi Keycloak support for searching, perissions adjusted:
+    * Feat: Multi Keycloak support for searching, permissions adjusted:
       * REALM#SEARCH             => removed
       * role,provider,user       admin-read
       * role,user                admin-write
       * provider                 read
       * password                 write
       * endpoints: users, roles
-    * Feat: Manage IDM Users and Roles (planned)
-    * Feat: Use product data via slot and remote component (planned)
-      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
 * Help 1.5.0
     * Feat: Improve test coverage
-    * Feat: Use product data via slot and remote component (planned)
-      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
 * Parameter 1.6.0
     * Feat: Display validation error on parameters with JSON object type
     * Feat: parameter service v2 (change endpoints) - do not use
     * Feat: Use product data via slot and remote component
       * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
+    * Feat: Outdated slots
+      * SLOT: onecx-product-infos => outdated
 * Permission 1.8.0
     * Fix: Quick filters in search/detail page have always a value
-    * Feat: Use product data via slot and remote component (planned)
-      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
 * Product Store 1.10.0
+    * Fix: translate ok and nok message on copy apps
+    * Feat: Add Slot management, new UI permissions
+      * SLOT#CREATE => onecx-product-store-ui
+      * SLOT#EDIT   => onecx-product-store-ui
+      * SLOT#VIEW   => onecx-product-store-ui
+    * Feat: Redesign slot overview: use table style, group product names, filter slot/product names
     * Feat: Added search criteria provider and classifications for products/applications
-    * Feat: Provide product data via remote component (planned)
     * Feat: Provide a remote component for product data
       * Component: ./OneCXProductDataComponent => onecx-product-data (help, ...)
-* Shell 2.0.0
+    * Feat: Outdated slots
+      * SLOT: onecx-product-list-workspaces-using-product
+    * Feat: Outdated remote components
+      * Component: ./OneCXProductInfosComponent
+* Shell 2.1.0
+    * Feat: Support of Angular 18 and 19
     * Fix: URL on page initialization error is stable now on reload
-    * Fix: translate "Unauthorized" (planned)
+    * Feat: Reactivate shell footer slot
+      * SLOT: onecx-shell-footer => with following components assigned
+        * ./OneCXCurrentThemeLogo (theme)
+        * ./OneCXFooterMenuComponent (workspace)
+        * ./OneCXVersionInfoComponent (workspace)
+    * Feat: New slot for header left region
+      * SLOT: onecx-shell-header-left => new => ./OneCXCurrentThemeLogo (theme)
+    * Feat: Improve accessibility: use footer tag on page
     * Feat: Add reload action on page for workspace initialization error
-    * Feat: Functionality to be informed about errors on RC loading (planned)
-    * Feat: new default favicon (planned)
+    * Feat: Outdated slots
+      * SLOT: onecx-page-footer
 * Tenant 1.6.0
     * Feat: Improve UI layout
 * Theme 1.9.0
+    * Feat: Provide a remote component to display the logo of the current theme
+      * Component: ./OneCXCurrentThemeLogo => onecx-shell-header-left, onecx-shell-footer
+      * Component: ./OneCXThemeInfosComponent => undeployed (not longer supported)
     * Feat: Provide a new slot for usage of theme in workspaces
       * SLOT: onecx-workspace-data => new => ./OneCXWorkspaceDataComponent (workspace)
-      * SLOT: onecx-theme-list-workspaces-using-theme => outdated
+    * Feat: Outdated slots
+      * SLOT: onecx-theme-list-workspaces-using-theme
 * User Profile 1.10.0
+    * Feat: Improve accessibility
     * Feat: Display IDM provider and issuer within personal data
     * Fix: Time zone and color scheme settings disabled because they are not currently in use
 * Welcome 1.7.0
@@ -71,9 +84,13 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Improve item filter in slot detail and product TAB
     * Feat: Provide a remote component for workspace data
       * Component: ./OneCXWorkspaceDataComponent => onecx-workspace-data (theme, ...)
-    * Feat: Improve slot TAB layout using a tree with several quick views (planned)
-    * Feat: Display indicator of non-existing theme on workspace tiles (planned)
-    * Feat: Use product data via slot and remote component in product TAB (planned)
+    * Feat: Outdated slots
+      * SLOT: onecx-page-footer-menu
+      * SLOT: onecx-theme-infos
+    * Feat: Outdated/Removed remote components
+      * Component: ./OneCXWorkspaceFooterComponent
+      * Component: ./OneCXListWorkspacesUsingThemeComponent
+      * Component: ./OneCXListWorkspacesUsingProductComponent
 
 
 ## Release 2025-07-11 (FIX)
