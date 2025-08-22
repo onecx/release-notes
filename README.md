@@ -4,16 +4,16 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 ## Release 2025-08-15
 * All UIs
     * Use OneCX Angular 18 Lib 5.47.4
-    * Use OneCX Angular 19 Lib 6.5.0
+    * Use OneCX Angular 19 Lib 6.5.3
     * Use docker-spa 1.18.0
     * Fix: Secure q endpoints
 * All SVC/BFFs: Use Quarkus 3.20.0
-* Announcement 1.6.0
-* Data Orchestrator 1.6.0
+* Announcement 1.7.0
+* Data Orchestrator 1.7.0
     * Fix: Editing CDR
     * Feat: Add Parameter as CDR (Custom Data Resource)
     * Feat: CDR types are fetch from BFF (configured via env. variables)
-* IAM 1.6.0
+* IAM 1.8.0
     * Feat: Multi Keycloak support for searching, permissions adjusted:
       * REALM#SEARCH             => removed
       * role,provider,user       admin-read
@@ -21,7 +21,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
       * provider                 read
       * password                 write
       * endpoints: users, roles
-* Help 1.5.0
+* Help 1.6.0
     * Feat: Improve test coverage
 * Parameter 1.6.0
     * Feat: Display validation error on parameters with JSON object type
@@ -30,9 +30,9 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
       * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
     * Feat: Outdated slots
       * SLOT: onecx-product-infos => outdated
-* Permission 1.8.0
+* Permission 1.9.0
     * Fix: Quick filters in search/detail page have always a value
-* Product Store 1.10.0
+* Product Store 1.12.0
     * Fix: translate ok and nok message on copy apps
     * Feat: Add Slot management, new UI permissions
       * SLOT#CREATE => onecx-product-store-ui
@@ -46,7 +46,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
       * SLOT: onecx-product-list-workspaces-using-product
     * Feat: Outdated remote components
       * Component: ./OneCXProductInfosComponent
-* Shell 2.1.0
+* Shell 2.2.0
     * Feat: Support of Angular 18 and 19
     * Fix: URL on page initialization error is stable now on reload
     * Feat: Reactivate shell footer slot
@@ -60,9 +60,10 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Add reload action on page for workspace initialization error
     * Feat: Outdated slots
       * SLOT: onecx-page-footer
-* Tenant 1.6.0
+* Tenant 1.7.0
     * Feat: Improve UI layout
-* Theme 1.9.0
+* Test 1.9.0
+* Theme 1.10.0
     * Feat: Provide a remote component to display the logo of the current theme
       * Component: ./OneCXCurrentThemeLogo => onecx-shell-header-left, onecx-shell-footer
       * Component: ./OneCXThemeInfosComponent => undeployed (not longer supported)
@@ -70,13 +71,14 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
       * SLOT: onecx-workspace-data => new => ./OneCXWorkspaceDataComponent (workspace)
     * Feat: Outdated slots
       * SLOT: onecx-theme-list-workspaces-using-theme
-* User Profile 1.10.0
+* User Profile 1.11.0
     * Feat: Improve accessibility
     * Feat: Display IDM provider and issuer within personal data
     * Fix: Time zone and color scheme settings disabled because they are not currently in use
-* Welcome 1.7.0
+* Welcome 1.8.0
     * Fix: display a single URL background image
-* Workspace 1.17.0
+* Workspace 1.18.0
+    * Fix: Manage assignments of components to slots
     * Fix: use native footer tag in workspace footer (aria/a11y issue)
     * Fix: use product default logo in product TAB for products
     * Fix: Quick filters in roles/slots/products/menu TABs have always a value
