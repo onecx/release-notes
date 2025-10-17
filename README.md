@@ -1,6 +1,66 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
+## Release 2025-11-xx => planned
+* Announcement 1.7.0
+    * Feat: Improvements of a11y in search/detail/delete dialog
+    * Feat: Improvements of search/detail/delete dialog layout for huge display names
+    * Feat: Use product data via slot and remote component
+      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
+    * Feat: Use workspace data via slot and remote component
+      * SLOT: onecx-workspace-data => new => ./OneCXWorkspaceDataComponent (workspace)
+* IAM 1.7.0
+    * Feat: Replace onecx-iam-kc-svc with onecx-iam-svc
+    * Feat: Manage IDM Users and Roles (planned)
+* Help 1.6.0
+    * Feat: Improvements of a11y in search/detail/delete dialog
+    * Feat: Improvements of search/detail/delete dialog layout for huge display names
+    * Feat: Use product data via slot and remote component
+      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
+* Parameter 1.7.0
+* Permission 1.9.0
+    * Feat: Use product data via slot and remote component (planned)
+      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
+    * Feat: Improve responsive layout of application detail dialogg and a11y
+* Product Store 1.10.0
+    * Feat: Removed slots (planned)
+      * SLOT: onecx-product-list-workspaces-using-product
+    * Feat: Removed remote components (planned)
+      * Component: ./OneCXProductInfosComponent
+    * Feat: Displaying multi-tenancy flag on product tiles in product search
+* Shell 2.0.0
+    * Fix: translate "Unauthorized" (planned)
+    * Feat: Functionality to be informed about errors on RC loading (planned)
+    * Feat: new default favicon (planned)
+* Theme 1.10.0
+    * Feat: Remove Slots
+      * onecx-theme-list-workspaces-using-theme
+    * Feat: Improvements in RC for current theme logo (external URLs and small logos)
+    * Feat: Improvements of image management for logos
+    * Feat: add small Logo
+* Workspace 1.19.0
+    * Fix:  Use query parameter correctly on routing menu item links
+    * Fix:  Reorder menu items
+    * Feat: Add filter for role assignments by role column header
+    * Feat: Improve menu layout: message displaying, routing
+    * Feat: Remove Slots
+      * onecx-page-footer-menu
+      * onecx-theme-infos
+    * Feat: Remove Components
+      * ./OneCXWorkspaceFooterComponent
+    * Feat: Add target property for menu items (values: _self, _blank) - _self is default
+    * Feat: Improvements in RC for current workspace logo (external URLs and small logos)
+    * Feat: Improvements of image management for logos
+    * Feat: Improvements of a11y in menu and menu detail dialog
+    * Feat: Improvements of a11y in detail dialog, several TABs
+    * Feat: Improvements of search/detail/delete dialog layout for huge display names
+    * Feat: Add small logo
+    * Feat: Allow SVG as logo format
+    * Feat: Improve slot TAB layout using a tree with several quick views (planned)
+    * Feat: Display indicator of non-existing theme on workspace tiles (planned)
+    * Feat: Use product data via slot and remote component in product TAB (planned)
+
+
 ## Release 2025-08-15
 * All UIs
     * Use OneCX Angular 18 Lib 5.47.4
