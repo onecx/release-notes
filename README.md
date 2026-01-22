@@ -4,6 +4,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 
 ## Release 2026-x-y
 * Announcement 1.x.0
+* Data Orchestrator 1.x.0
 * IAM 1.x.0
     * Feat: Manage IDM Users and Roles (planned)
 * Help 1.x.0
@@ -34,6 +35,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
       * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
     * Feat: Use workspace data via slot and remote component
       * SLOT: onecx-workspace-data => new => ./OneCXWorkspaceDataComponent (workspace)
+* Data Orchestrator 1.8.0
 * IAM 1.9.0
     * Feat: Replace onecx-iam-kc-svc with onecx-iam-svc
 * Help 1.7.0
