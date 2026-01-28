@@ -27,7 +27,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Use product data via slot and remote component in product TAB (planned)
 
 
-## Release 2026-01-23
+## Release 2026-01-28
 * Announcement 1.8.0
     * Feat: Improvements of a11y in search/detail/delete dialog
     * Feat: Improvements of search/detail/delete dialog layout for huge display names
@@ -47,7 +47,8 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * Parameter 1.8.0
     * Feat: Replaced slots
       * SLOT: onecx-product-infos => onecx-product-data
-* Permission 1.10.0
+* Permission 1.11.0
+    * Feat: Extend role filter in detail dialog: hide unassigned roles
     * Feat: Improve responsive layout of application detail dialogg and a11y
 * Product Store 1.13.0
     * Feat: Removed slot
