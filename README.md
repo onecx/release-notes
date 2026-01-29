@@ -56,7 +56,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Removed remote components
       * Component: ./OneCXProductInfosComponent
     * Feat: Displaying multi-tenancy flag on product tiles in product search
-* Shell 2.0.0
+* Shell 2.6.0
 * Tenant 1.8.0
 * Test 1.10.0
 * Theme 1.11.0
