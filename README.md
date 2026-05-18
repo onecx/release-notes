@@ -2,29 +2,72 @@
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
 
-## Release 2026-x-y
-* Announcement 1.x.0
-* Data Orchestrator 1.x.0
-* IAM 1.x.0
-    * Feat: Manage IDM Users and Roles (planned)
-* Help 1.x.0
-* Parameter 1.x.0
-* Permission 1.x.0
-    * Feat: Use product data via slot and remote component (planned)
-      * SLOT: onecx-product-data => new => ./OneCXProductDataComponent (product-store)
-* Product Store 1.x.0
-* Shell 2.0.0
-    * Fix: translate "Unauthorized" (planned)
-    * Feat: new default favicon (planned)
-* Tenant 1.x.0
-* Test 1.x.0
-* Theme 1.x.0
-* User Profile 1.x.0
-* Welcome 1.x.0
-* Workspace 1.x.0
-    * Feat: Improve slot TAB layout using a tree with several quick views (planned)
-    * Feat: Display indicator of non-existing theme on workspace tiles (planned)
-    * Feat: Use product data via slot and remote component in product TAB (planned)
+## Release 2026-05-18
+* All Backends
+  * Use new base image
+* All UIs
+  * Use OneCX Angular 18 Lib 5.56.0
+  * Use OneCX Angular 19 Lib 6.5.3
+  * Use docker-spa 2.18.0
+
+* Announcement 1.10.0
+  * Fix: Announcement carousel focus on chevron arrow buttons is now visible
+* IAM 1.11.0
+* Help 1.9.0
+* Parameter 1.10.0
+  * Fix: Use description value from Helm values.yaml (operator)
+* Permission 1.14.0
+  * Fix: Redisplay displaying of permission descriptions
+  * Feat: Added role filters for non-workspace and empty roles
+* Product Store 1.15.0
+  * Fix: Layout of component details
+  * FEAT: Added shareScope property in MFE UI Module
+* Shell 3.2.1
+    * Feat: Upgrade shell runtime and micro frontend integration
+      * Upgrade shell to use Angular 21
+      * Angular 21 support
+      * Update Angular 18/19/20 package versions
+      * Handle initial router sync history
+    * Feat: Improve shell layout, navigation and slots
+      * Restructuring viewport
+      * Slot groups with resizing capabilities
+      * Legacy slot mapping to new layout
+    * Feat: About shell page with Angular support list
+      * About page on "onecx-shell/about-shell"
+    * Feat: Improve startup, loading and platform behavior
+      * Faster startup
+      * Reduce loaded code
+      * Add source maps
+    * Fix: Improve internationalization and accessibility
+      * Change the document index.html lang attribute on language change
+    * Fix: Improve styling and rendering behavior
+      * Performance polyfill constructs the styles correctly
+      * Global styles for angular cdk
+      * Scrollbar fixes
+      * Allow MFEs to grow
+    * Fix: Authentication and configuration fixes
+      * Keycloak infinite loop on login
+      * Added keycloak config for token update
+* Tenant 1.10.0
+  * Fix: Improve layout of search and detail dialog
+  * Feat: Add tenant logos
+* Test 1.12.0
+* Theme 1.13.0
+  * Fix: List layout of theme search results
+  * Fix: Improve image size in list view of theme search results
+  * Fix: Improve deletion of themes if used by workspace
+* User Profile 1.14.0
+  * Feat: Add language switch remote component
+  * Feat: Add user name remote component
+* Welcome 1.11.0
+* Workspace 1.22.0
+    * Fix: Opening/closing menu detail/create dialog
+    * Fix: List layout of workspace search results
+    * Fix: Improve image size in list view of theme search results
+    * Fix: Apply theme to sidebar menu components
+    * Fix: Improve workspace creation, adjust creation template using new slots
+    * Fix: Rework of workspace import procedure and dialog
+    * Feat: Add translations of workspace text properties and displaying via remote component
 
 
 ## Release 2026-01-28
