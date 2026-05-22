@@ -22,7 +22,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * Product Store 1.15.0
   * Fix: Layout of component details
   * FEAT: Added shareScope property in MFE UI Module
-* Shell 3.2.1
+* Shell [3.2.1](https://onecx.github.io/docs/documentation/current/onecx-shell/v3/v3-release.html)
     * Feat: Upgrade shell runtime and micro frontend integration
       * Upgrade shell to use Angular 21
       * Angular 21 support
