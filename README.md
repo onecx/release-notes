@@ -1,5 +1,27 @@
+slot-group: overflow: hidden
+  slot...center: height: inherit;
+    slot-component: height: inherit
+
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
+
+
+## Release 2026-09-11
+* All Backends
+  * Use new base image
+* All UIs
+  * Use docker-spa 2.38.0
+* Announcement 1.11.0
+  * Use OneCX Angular 19 Lib 6.27.0
+  * Fix: General code improvements
+  * Fix: Announcement banners uses maximal horizontal size also if content is smaller
+  * Feat: Add controls to manage Announcements in banner: hide, small/full, reload
+  * Feat: Improve layout of active Announcements on welcome page
+* Shell 3.5.0
+  * Use OneCX Angular 21 Lib 8.11.0
+  * Fix: Toast messages showing up
+  * Fix: Translation issues comming up from remote components
+  * Feat: Update Angular preloaders
 
 
 ## Release 2026-05-18
@@ -9,58 +31,32 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
   * Use OneCX Angular 18 Lib 5.56.0
   * Use OneCX Angular 19 Lib 6.5.3
   * Use docker-spa 2.18.0
-
 * Announcement 1.10.0
   * Fix: Announcement carousel focus on chevron arrow buttons is now visible
-* IAM 1.11.0
-* Help 1.9.0
-* Parameter 1.10.0
+* IAM 1.x.0
+* Help 1.x.0
+* Parameter 1.x.0
   * Fix: Use description value from Helm values.yaml (operator)
-* Permission 1.14.0
+* Permission 1.x.0
   * Fix: Redisplay displaying of permission descriptions
   * Feat: Added role filters for non-workspace and empty roles
-* Product Store 1.15.0
+* Product Store 1.x.0
   * Fix: Layout of component details
   * FEAT: Added shareScope property in MFE UI Module
-* Shell [3.2.1](https://onecx.github.io/docs/documentation/current/onecx-shell/v3/v3-release.html)
-    * Feat: Upgrade shell runtime and micro frontend integration
-      * Upgrade shell to use Angular 21
-      * Angular 21 support
-      * Update Angular 18/19/20 package versions
-      * Handle initial router sync history
-    * Feat: Improve shell layout, navigation and slots
-      * Restructuring viewport
-      * Slot groups with resizing capabilities
-      * Legacy slot mapping to new layout
-    * Feat: About shell page with Angular support list
-      * About page on "onecx-shell/about-shell"
-    * Feat: Improve startup, loading and platform behavior
-      * Faster startup
-      * Reduce loaded code
-      * Add source maps
-    * Fix: Improve internationalization and accessibility
-      * Change the document index.html lang attribute on language change
-    * Fix: Improve styling and rendering behavior
-      * Performance polyfill constructs the styles correctly
-      * Global styles for angular cdk
-      * Scrollbar fixes
-      * Allow MFEs to grow
-    * Fix: Authentication and configuration fixes
-      * Keycloak infinite loop on login
-      * Added keycloak config for token update
-* Tenant 1.10.0
+* Shell 2.x.0
+* Tenant 1.x.0
   * Fix: Improve layout of search and detail dialog
   * Feat: Add tenant logos
-* Test 1.12.0
-* Theme 1.13.0
+* Test 1.x.0
+* Theme 1.x.0
   * Fix: List layout of theme search results
   * Fix: Improve image size in list view of theme search results
   * Fix: Improve deletion of themes if used by workspace
-* User Profile 1.14.0
+* User Profile 1.x.0
   * Feat: Add language switch remote component
   * Feat: Add user name remote component
-* Welcome 1.11.0
-* Workspace 1.22.0
+* Welcome 1.x.0
+* Workspace 1.x.0
     * Fix: Opening/closing menu detail/create dialog
     * Fix: List layout of workspace search results
     * Fix: Improve image size in list view of theme search results
@@ -70,7 +66,12 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Add translations of workspace text properties and displaying via remote component
 
 
-## Release 2026-01-28
+## Release 2026-01-23
+* All UIs
+    * Use OneCX Angular 18 Lib 5.47.4
+    * Use OneCX Angular 19 Lib 6.5.3
+    * Use docker-spa 1.18.0
+    * Fix: Secure q endpoints
 * Announcement 1.8.0
     * Feat: Improvements of a11y in search/detail/delete dialog
     * Feat: Improvements of search/detail/delete dialog layout for huge display names
@@ -80,7 +81,6 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
       * SLOT: onecx-workspace-data => new => ./OneCXWorkspaceDataComponent (workspace)
 * Data Orchestrator 1.8.0
 * IAM 1.9.0
-    * Feat: Replace onecx-iam-kc-svc with onecx-iam-svc
 * Help 1.7.0
     * Feat: Improve layout of missing help article dialog
     * Feat: Improvements of a11y in search/detail/delete dialog
@@ -92,14 +92,14 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
       * SLOT: onecx-product-infos => onecx-product-data
 * Permission 1.11.0
     * Feat: Extend role filter in detail dialog: hide unassigned roles
-    * Feat: Improve responsive layout of application detail dialogg and a11y
+    * Feat: Improve responsive layout of application detail dialog and a11y
 * Product Store 1.13.0
     * Feat: Removed slot
       * SLOT: onecx-product-list-workspaces-using-product
     * Feat: Removed remote components
       * Component: ./OneCXProductInfosComponent
     * Feat: Displaying multi-tenancy flag on product tiles in product search
-* Shell 2.6.0
+* Shell 2.0.0
 * Tenant 1.8.0
 * Test 1.10.0
 * Theme 1.11.0
@@ -145,6 +145,7 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
     * Feat: Add Parameter as CDR (Custom Data Resource)
     * Feat: CDR types are fetch from BFF (configured via env. variables)
 * IAM 1.8.0
+    * Feat: Replace onecx-iam-kc-svc with onecx-iam-svc
     * Feat: Multi Keycloak support for searching, permissions adjusted:
       * REALM#SEARCH             => removed
       * role,provider,user       admin-read
@@ -359,7 +360,6 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
 * IAM 1.3.0
 * Help 1.3.0
 * Permissions 1.5.0
-    * Display message if IAM user not exists in RC user permissions
 * Product Store 1.5.0
     * New UI permission: ENDPOINT#SEARCH
     * Feat: added endpoint overview page
