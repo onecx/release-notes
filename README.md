@@ -1,7 +1,3 @@
-slot-group: overflow: hidden
-  slot...center: height: inherit;
-    slot-component: height: inherit
-
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
