@@ -21,8 +21,10 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
   - Feat: Extend quick filter on application detail with CREATE and SEARCH
 * Product-Store 1.16.0
   - Feat: Use URL parameter for search criteria
-* Shell ?
-  * Support Angular 18...22
+* Shell 3.10.0
+  - Feat: Support of Angular 22
+  - Feat: Switch from PrimeNG to Optimus UI
+  - Fix: Remove max-width from slot-groups
 * Tenant 1.11.0
   - Feat: Enable use of SVG images
 * Test 1.14.0
