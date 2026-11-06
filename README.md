@@ -1,7 +1,7 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
-## Release 2026-11-03
+## Release 2026-11-05
 * All Backends
   - Use new base image
   - onecx-quarkus3-parent 4.1.0
@@ -21,7 +21,8 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
   - Feat: Extend quick filter on application detail with CREATE and SEARCH
 * Product-Store 1.16.0
   - Feat: Use URL parameter for search criteria
-* Shell 3.10.0
+* Shell 3.9.0
+  - Shell UI 3.11
   - Feat: Support of Angular 22
   - Feat: Switch from PrimeNG to Optimus UI
   - Fix: Remove max-width from slot-groups
