@@ -1,6 +1,27 @@
 # OneCX Portal Release Notes
 Release notes for the official **OneCX Portal**[^1] releases. Each release note will tell you what’s new in each version, and will also describe any backwards-incompatible changes made in that version.
 
+## Release 2026-??-??
+* All Backends
+  - Use new base image
+  - onecx-quarkus3-parent 4.??.0
+* All UIs
+  - Use docker-spa 2.??.0
+  - Common code improvements, fix code smells
+  - Angular 20
+* Shell 3.??.0
+  - Shell UI 3.??.??
+  - Removed outdated slots:
+    - onecx-shell-vertical-menu:
+    - onecx-shell-horizontal-menu:
+    - onecx-shell-header-left:
+    - onecx-shell-header-right:
+    - onecx-shell-sub-header:
+    - onecx-shell-footer:
+    - onecx-page-footer:
+        
+
+
 ## Release 2026-11-05
 * All Backends
   - Use new base image
