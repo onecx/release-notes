@@ -9,6 +9,8 @@ Release notes for the official **OneCX Portal**[^1] releases. Each release note 
   - Use docker-spa 2.??.0
   - Common code improvements, fix code smells
   - Angular 20
+* Parameter 1.??.0
+  - Fix: fix PrimeNG components in usage detail
 * Shell 3.??.0
   - Shell UI 3.??.??
   - Removed outdated slots:
